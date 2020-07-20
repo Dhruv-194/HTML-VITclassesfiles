@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+   
+  	<style>
+     	#svgredcircle {
+        	position: relative;
+        	left: 30%;
+        	-webkit-transform: translateX(-20%);
+        	-ms-transform: translateX(-20%);
+        	transform: translateX(-20%);
+     	}
+	#svgbluecircle {
+        	position: relative;
+        	left: 30%;
+        	-webkit-transform: translateX(-20%);
+        	-ms-transform: translateX(-20%);
+        	transform: translateX(-105%);
+     	}
+	#svgrect {
+        	position: relative;
+        	left: 30%;
+        	-webkit-transform: translateX(-20%);
+        	-ms-transform: translateX(-20%);
+        	transform: translateX(-235%);
+     	}
+	#svgline1{ 
+  	 position: relative;
+               left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-40%);
+	}
+	#svgline2{ 
+  	 position: relative;
+               left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-180%);
+	}
+  	</style>
+  	<title>SVG</title>
+  	<meta charset = "utf-8" />
+   </head>
+   
+  <body>
+  	<h2 align = "center">HTML5 SVG </h2>
+   	 
+  	<svg id = "svgredcircle" height = "200" xmlns = "http://www.w3.org/2000/svg">
+     	<circle id = "redcircle" cx = "50" cy = "50" r = "50" fill = "red" />
+</svg>
+ 	<svg id = "svgbluecircle" height = "200" xmlns = "http://www.w3.org/2000/svg">
+     	<circle id = "bluecircle" cx = "100" cy = "50" r = "50" fill = "blue" />
+</svg>
+	<svg id = "svgrect" height = "200" xmlns = "http://www.w3.org/2000/svg">
+              <rect id = "redrect" width = "300" height = "100" fill = "green"  x="0" y="105" style = "stroke:rgb(255, 238, 83);stroke-width:5" />
+</svg>
+ 	<svg  id = "svgline1" height="210" width="500">
+  <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" x="0" y="105" />
+</svg>
+	<svg  id = "svgline2" height="210" width="500">
+  <line x1="200" y1="0" x2="0" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" x="0" y="105" />
+</svg>
+	
+   </body>
+</html>
