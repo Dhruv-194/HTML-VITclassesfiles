@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 style="text-align:center">JavaScript Function of a basic calculator</h2>
+
+<p>Assignment HTML5 - an example of demonstrating the addition, subtraction, mulitplication and division functions:  </p>
+
+<p id="demo">Click the button below to display the result</p>
+
+<script>
+
+function add(a, b) {
+  var x = a + b;;
+  document.getElementById("para").innerHTML = x;
+}
+function sub(a, b) {
+  var x = a - b;;
+  document.getElementById("para").innerHTML = x;
+}
+function mul(a, b) {
+  var x = a * b;;
+  document.getElementById("para").innerHTML = x;
+}
+function divide(a, b) {
+  var x = a / b;;
+  document.getElementById("para").innerHTML = x;
+}
+</script>
+
+<p id="para"></p>,
+<button type="button" onclick="add(8,2)">Click this button to display addition of 8+2 </button><br><br>
+<button type="button" onclick="sub(6, 3)">Click this button to display subtraction of 6 -3 </button><br><br>
+<button type="button" onclick="mul(4,6)">Click this button to display multiplication of 4*6</button><br><br>
+<button type="button" onclick="divide(10,5)">Click this button to display division of 10/5 </button><br><br>
+</body>
+</html>
