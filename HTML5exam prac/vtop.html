@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+  	<script type = "text/javascript">
+    	 
+     	function showResult() {
+        	x = document.forms["myform"]["newinput"].value;
+        	document.forms["myform"]["result"].value = x;
+     	}
+  	</script>
+   </head>
+   
+   <body style="background-color:powderblue;">
+<img src = "https://images.shiksha.com/mediadata/images/1571723891phpy8vDFV.jpeg" alt = "vitbhopal" width="200" height="165">  
+<form action = "http://www.vitbhopal.ac.in" method = "post" name="myform">  
+   <p>
+  	<label for = "FirstName">First Name: </label>
+  	<input type = "text" id = "FirstName"><br /><br>
+	
+	  	<label for = "LastName">Last Name: </label>
+  	<input type = "text" id = "LastName"><br /><br>
+	
+	<label for = "RegNumber">Registration Number </label>
+  	<input type = "text" id = "RegNumber"><br /><br>
+ 
+   	<label for = "Branch">Branch </label>
+  	<input type = "text" id = "Branch"><br /><br>
+ 
+  	<label for = "email">E-mail: </label>
+  	<input type = "text" id = "email" placeholder = "Vitbhopal email id"><br><br>
+	
+  	<input type = "radio" name = "sex" value = "male"> Male<br>
+  	<input type = "radio" name = "sex" value = "female"> Female<br><br>
+  	<input type = "submit" value = "Login"> <input type = "reset">
+   </p>
+</form>
+   	 
+   </body>
+</html>
